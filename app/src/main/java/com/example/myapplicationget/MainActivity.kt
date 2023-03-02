@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //savetoosama
         save.setOnClickListener {
             var name =name.text.toString()
             var id =id.text.toString()
